@@ -8,7 +8,7 @@ export default function SingleMember() {
     <div className="member-wrap">
       <div className="member">
         <div className="img">
-          <img src={`../../../public/img/${memberData.id}.jpg`} alt="" />
+          <img src={`/img/${memberData.id}.jpg`} alt="" />
         </div>
         <div className="details">
           <h3>{memberData.name}</h3>

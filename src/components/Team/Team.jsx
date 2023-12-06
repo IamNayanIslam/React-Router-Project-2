@@ -12,7 +12,7 @@ export default function Team() {
         {datas.map((data) => (
           <div className="post" key={data.id}>
             <div className="img">
-              <img src={`../../../public/img/${data.id}.jpg`} alt="" />
+              <img src={`/img/${data.id}.jpg`} alt="" />
             </div>
             <div className="details">
               <h3>Name: {data.name}</h3>
