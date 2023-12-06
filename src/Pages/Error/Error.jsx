@@ -5,7 +5,7 @@ export default function Error() {
     <div className="error-wrap">
       <div className="error">
         <div className="right">
-          <img src="../../../public/img/error.png" alt="" />
+          <img src="/img/error.png" alt="" />
         </div>
         <div className="left">
           <h1>Something's wrong here</h1>
