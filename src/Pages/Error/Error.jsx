@@ -1,4 +1,3 @@
-import errorImg from "./error.png";
 import "./Error.css";
 import { Link } from "react-router-dom";
 export default function Error() {
@@ -6,7 +5,7 @@ export default function Error() {
     <div className="error-wrap">
       <div className="error">
         <div className="right">
-          <img src={errorImg} alt="" />
+          <img src="../../../public/img/error.png" alt="" />
         </div>
         <div className="left">
           <h1>Something's wrong here</h1>
