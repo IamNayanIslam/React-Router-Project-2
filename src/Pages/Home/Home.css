@@ -1,0 +1,51 @@
+.home-wrap {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/01/67/76/24/1000_F_167762414_1czvGPA46kJxtolPWMBbnkLdmf7KoD9f.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.home-wrap main {
+  width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 0px 40px;
+}
+
+.home-wrap main .left {
+  width: 50%;
+}
+
+.home-wrap main .left h2 {
+  margin-bottom: 20px;
+}
+
+.home-wrap main .left h1 {
+  margin-bottom: 20px;
+}
+
+.home-wrap main .left p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.home-wrap main .left button {
+  border: none;
+  outline: none;
+  padding: 12px 50px;
+  border-radius: 5px;
+  color: #fff;
+  background: #022e3b;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.home-wrap main .left button:hover {
+  background: #02222c;
+}
